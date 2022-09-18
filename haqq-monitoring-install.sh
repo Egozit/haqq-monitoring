@@ -88,7 +88,7 @@ haqq_PATH=$(realpath .haqq)
 #COS_PORT_RPC=$(sed -n ${IP_STR_NUM}p $haqq_CONFIG_PATH | cut -d : -f 3 | sed -e 's/"$//')
 COS_PORT_RPC=$(haqqd config | grep node | cut -d '"' -f 4 | cut -d : -f 3)
 #COS_VALOPER=$(haqqd keys show $COS_WALLET --bech val -a)
-COS_MONIKER=$(curl localhost:12657/status | grep moniker | cut -d : -f 2 | cut -d '"' -f 2)
+COS_MONIKER=$(curl localhost:$COS_PORT_RPC/status | grep moniker | cut -d : -f 2 | cut -d '"' -f 2)
 
 PUBLIC_VALIDATOR_KEY=$(jq -r '.result.validator_info.pub_key.value' <<<$(curl -s localhost:$COS_PORT_RPC/status))
 COS_VALOPER=$(jq -r '.operator_address' <<<$(${COS_BIN_NAME} q staking validators -o json --limit=3000 --node "tcp://localhost:${COS_PORT_RPC}" \
