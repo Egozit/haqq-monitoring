@@ -1,5 +1,5 @@
 # Haqq node monitoring tool
-## Community dashboard by L0vd.com: [Dashboard link](http://95.216.2.219:3000/d/haqq/haqq-monitoring-by-l0vd?orgId=1&refresh=30s)
+## Community dashboard by L0vd.com: [Dashboard link](http://95.216.2.219:3000/d/Haqq/haqq-monitoring-by-l0vd?orgId=1&refresh=30s)
 
 To monitor you node your should install and configure:
 * [InfluxDB](https://www.influxdata.com/products/influxdb/)
@@ -90,7 +90,7 @@ Set you name to identify yourself in grafana dashboard and check correctness of 
 Dashboard has main cosmos-based node information and common system metrics. There is a description for each metric.
 
 Go to our comunity dashboard and select you node from the server list: 
-## [Dashboard link](http://95.216.2.219:3000/d/haqq/haqq-monitoring-by-l0vd?orgId=1&refresh=30s)
+## [Dashboard link](http://95.216.2.219:3000/d/Haqq/haqq-monitoring-by-l0vd?orgId=1&refresh=30s)
 
 
 ![Screenshot_1](https://user-images.githubusercontent.com/43213686/169405751-8ff53124-e128-4078-8d68-229a18ea4e25.png)
