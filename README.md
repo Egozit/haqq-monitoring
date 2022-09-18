@@ -1,4 +1,4 @@
-# haqq node monitoring tool
+# Haqq node monitoring tool
 ## Community dashboard by L0vd.com: [Dashboard link](http://95.216.2.219:3000/d/haqq/haqq-monitoring-by-l0vd?orgId=1&refresh=30s)
 
 To monitor you node your should install and configure:
